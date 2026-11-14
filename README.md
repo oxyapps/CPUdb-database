@@ -20,6 +20,8 @@ Bugs and ideas for the app or the website are welcome here too.
 ```
 public/manifest.json              the current dataset: version, file name, SHA-256, size, CPU count
 public/cpus-<dataVersion>.json.gz the datasets, one per release (gzipped JSON, never changed once published)
+public/stores.json                store links shown by the app and the website (affiliate links; not part of the
+                                  dataset and not covered by its GPL-3.0 license)
 public/_headers                   Cloudflare cache rules
 public/index.html                 the page at https://update.cpudb.app/
 ```
