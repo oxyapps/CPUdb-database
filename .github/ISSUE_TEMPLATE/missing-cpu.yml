@@ -1,0 +1,23 @@
+name: Missing processor
+description: A released or announced CPU or SoC is not in the database.
+title: "Missing: "
+labels: [missing]
+body:
+  - type: input
+    id: cpu
+    attributes:
+      label: Processor
+      description: Manufacturer and model.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A page with its specifications. The manufacturer's spec page is best.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

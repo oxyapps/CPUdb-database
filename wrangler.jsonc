@@ -1,0 +1,9 @@
+// Cloudflare Workers static assets: public/ is served as-is at https://update.cpudb.app/ (no build step).
+// public/_headers sets the cache rules: manifest.json is revalidated, the datasets are immutable.
+{
+  "name": "cpudb-update",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

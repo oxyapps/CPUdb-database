@@ -1,0 +1,25 @@
+name: Data correction
+description: A value in the database is wrong.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: cpu
+    attributes:
+      label: Processor
+      description: Its name, or its id (the last part of its page address on cpudb.app, e.g. intel-core-i7-4770k).
+    validations:
+      required: true
+  - type: textarea
+    id: values
+    attributes:
+      label: What is wrong
+      description: The field, the value shown and the correct value.
+      placeholder: "L3 cache: shows 8 MB, should be 6 MB"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Where the correct value comes from. The manufacturer's spec page is best.
