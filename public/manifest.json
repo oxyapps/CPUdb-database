@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 2026111406,
-  "url": "cpus-2026111406.json.gz",
-  "sha256": "7d8ce3b6f3a6b7dd681bc689c517ac8e2e9ac6c86434ef24967885cd40b69c90",
-  "sizeBytes": 288981,
-  "cpuCount": 6737
+  "dataVersion": 2026111504,
+  "url": "cpus-2026111504.json.gz",
+  "sha256": "8a10571312fe03c35075655c1467cb29866008febd4fed449aea9a2e6bddf762",
+  "sizeBytes": 286262,
+  "cpuCount": 6739
 }
